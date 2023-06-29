@@ -4,9 +4,9 @@ namespace CVUMvc.Controllers;
 
 public class CVUCau3Controller : Controller
 {
-    private readonly ILogger<HomeController> _logger;
+    private readonly ILogger<CVUCau3Controller> _logger;
 
-    public CVUCau3Controller(ILogger<HomeController> logger)
+    public CVUCau3Controller(ILogger<CVUCau3Controller> logger)
     {
         _logger = logger;
     }
